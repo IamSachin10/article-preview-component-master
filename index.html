@@ -9,10 +9,10 @@
 </head>
 
 <body>
-  <main>
+  <main class="container">
     <!-- drawer img -->
-    <figure class="drawers-container">
-      <img src="./src/images/drawers.jpg" class="drawers-img" alt="">
+    <figure class="drawer">
+      <img src="./src/images/drawers.jpg" class="drawer-img" alt="">
       <figcaption class="drawers-caption"></figcaption>
     </figure>
     <!-- article content -->
@@ -27,11 +27,19 @@
             <p class="user-date-info">28 Jun 2020</p>
           </div>
         </div>
-        <div class="icon-share">
+        <div class="icon-share" data-id="icon-share">
           <img src="./src/images/icon-share.svg" class="icon-share-img">
         </div>
       </div>
     </article>
+    <div class="pop-up hidden">
+      <p>Share</p>
+      <div class="social-icon">
+        <img src="./src/images/icon-facebook.svg" class="icon-facebook" alt="icon-facebook">
+        <img src="./src/images/icon-twitter.svg" class="icon-twitter" alt="icon-twitter">
+        <img src="./src/images/icon-pinterest.svg" class="icon-pinterest" alt="icon-pinterest">
+      </div>
+    </div>
     
   </main>
   <script type="module" src="./src/js/main.js"></script>
