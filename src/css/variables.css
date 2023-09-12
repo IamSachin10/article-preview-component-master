@@ -1,0 +1,11 @@
+:root {
+    /* colors */
+    --clr-darkgrayishBlue: hsl(217, 19%, 35%);
+    --clr-desaturateddarkBlue: hsl(214, 17%, 51%);
+    --clr-grayishBlue: hsl(212, 23%, 69%);
+    --clr-lightgrayishBlue: hsl(210, 46%, 95%);
+    /* font */
+    --fs-normal: 0.8125rem;
+    --fw-500: 500;
+    --fw-700: 700;
+}
