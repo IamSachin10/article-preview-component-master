@@ -1,3 +1,3 @@
 export default {
-  base: '/article-preview-component-master'
+  base: "/article-preview-component-master"
 }
