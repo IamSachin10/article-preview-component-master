@@ -14,6 +14,9 @@
     margin-block-start: 0 !important;
     box-shadow: none !important;
   }
+   .drawer-img {
+        border-radius: 0px 0px 14px 14px;
+   }
   :is(.article-title, .article-content, .user) {
     margin-inline: 1.5em;
   }
